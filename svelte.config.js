@@ -15,7 +15,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/kzhang48/project-test'
+			base: process.argv.includes('dev') ? '' : ''
 		}
 	}
 };
